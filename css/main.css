@@ -1,0 +1,44 @@
+*{
+	background-color: #5b5858;
+	text-align: center;
+}
+
+h1{
+	font-family: "Dawning of a New Day", cursive;
+}
+
+img{
+	width: 45%;
+	border-radius: 10px;
+	border: 10px solid white;
+}
+
+/*div q contiene  la imagen*/
+.carousel-content{
+	display: none;
+}
+
+.carousel-content.active{
+	display: block;
+}
+
+/*botones*/
+.control{
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+/*.........antes/siguiente..............*/
+.previous, .next{
+	color: white;
+	margin: 10px 30px;
+}
+
+/*relleno de boton, antes y despues*/
+.control:hover, .previous:hover, .next:hover{
+	background: #4db6ac;
+	border: 1px solid #4db6ac;
+}
